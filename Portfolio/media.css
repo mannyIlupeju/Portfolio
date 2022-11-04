@@ -1,0 +1,481 @@
+@media screen and (max-width: 1876px) {
+  .submitBox {
+    left: -16rem;
+  }
+}
+
+
+@media screen and (max-width: 1436px) {
+  .cta-headline {
+    margin-left: 8rem;
+  }
+  .cta-description {
+    margin-left: 5rem;
+  }
+  .contact {
+    margin-left: 56rem;
+  }
+
+  .submitBox {
+    left: -33.8rem;
+  }
+
+  div#projects {
+    margin-left: 8rem;
+  } 
+
+
+}
+
+@media (max-width: 1240px) {
+  div#projects {
+    margin-left: -9rem;
+  } 
+  .submitBox {
+    left: -42.8rem;
+  }
+  .navbar {
+    position: relative;
+    right: 9rem;
+  }
+  .headline {
+    font-size: 7rem;
+  } 
+  .about-flex {
+    gap: 8rem;
+  }
+}
+
+@media (max-width: 1000px) {
+   img.manny-logo {
+    margin-left: 2rem;
+    width: 24rem;
+  }
+
+  .switch {
+    right: -5rem;
+  }
+
+  .navbar {
+    right: 2rem;
+  }
+
+
+  .about img {
+    margin-left: -8rem;
+  }
+
+  .about-flex {
+    gap: 2rem;
+  }
+
+  .headline {
+    font-size: 7rem;
+    top: -1rem
+  }
+
+  .bio {
+    font-size: 1.7rem
+  }
+
+  .btn-flex {
+    margin-top: 13rem;
+  }
+
+  div#projects {
+    margin-left: 2rem;
+  }
+
+  .cta-description {
+    margin-left: 8rem;
+  }
+
+ 
+}
+
+@media (max-width: 1200px) {
+  img.manny-logo {
+    margin-left: -1rem;
+    width: 31rem;
+  }
+  .navbar {
+    right: 13rem;
+  }
+  .headline {
+    font-size: 7.5rem;
+  }
+  .about-flex{
+    gap: 7rem;
+  }
+  .skillList li {
+    font-size: 3rem;
+  }
+  .project-description {
+    margin-left: -14rem;
+  }
+  .project-section {
+    margin: 15rem 0 4rem 14rem; 
+  }
+  .contact {
+    margin-left: 45rem;
+  }
+  .cta-description {
+    margin-left: 10rem;
+  }
+
+  .submitBox {
+    left: -48rem;
+  }
+}
+
+@media (max-width: 1006px) {
+  .switch {
+    right: -3rem;
+  }
+  .navbar {
+    right: 2rem;
+  }
+  .box1 {
+    margin-left: -9rem;
+  }
+  .about-flex {
+    gap: 3rem;
+  }
+  project-section {
+    margin: 2rem 0 4rem 14rem;
+  }
+  .submitBox {
+    left: -56rem;
+  }
+  .nav-link {
+    font-size: 1.5rem;
+  }
+  .cards {
+    width: 44rem;
+  }
+  .about {
+    right: 3rem;
+  }
+  div#projects {
+    margin-left: -10rem;
+  }
+}
+
+@media (max-width: 992px){
+  .box1 {
+    margin-left: -5rem;
+  }
+  .box2 {
+    margin: -4rem 0 0 -11rem;
+  }
+  .switch {
+    right: 5rem;
+  }
+  img.manny-logo {
+    width: 220px;
+    margin-left: 8rem;
+  }
+  .navbar {
+    right: 9rem;
+  }
+  .nav-link {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+  .headline {
+    font-size: 6.5rem;
+    top: -1rem;
+  }
+  .bio {
+    font-size: 1.8rem;
+    margin-top: -30.57rem;
+  }
+  .about img{
+    margin-left: -6rem;
+  }
+  .about-flex {
+    gap: 17rem;
+  }
+  .skillList li {
+    font-size: 2rem;
+  }
+  .contact {
+    margin-left: 34rem;
+  }
+  .cta-description {
+    margin-left: 8rem;
+  }
+  div#projects {
+    margin-left: 13rem;
+  }
+  .btn-flex {
+    margin-top: 14rem;
+  }
+
+ 
+}
+
+@media (max-width: 922px) {
+  .project-section {
+    margin: 5rem 0 4rem 7rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .nav-responsive-menu {
+    left: 39rem;
+  }
+  .about-flex {
+    flex-direction: column;
+  }
+  img.manny-logo{
+    width: 29rem;
+    margin-left: -9rem;
+  }
+
+  .nav2 {
+    display: none;
+  }
+
+  .switch {
+    right: -3rem;
+  }
+
+  .menu-bars {
+    display: block;
+    right: -1rem;
+  }
+
+  .box1 {
+    display: none;             
+  }
+
+  .skill-list {
+    margin-top: 11rem;
+    width: 60rem;
+  }
+
+  .skill-list li {
+    font-size: 1.5rem
+  }
+
+  .project-section {
+    margin: 5rem 0 4rem 14rem;
+  }
+
+  .projects {
+    text-align: center;
+    margin-left: 3rem;
+  }
+
+  .project-cards {
+    margin: 0 auto;
+  }
+
+  .submit-btn {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 912px) {
+  .skill-list {
+    margin: 11rem 0 0 2rem;
+    width: 60rem;
+  }   
+
+  div#projects {
+    margin-left: 8rem;
+  }
+}
+
+@media (max-width: 852px) {
+  img.manny-logo{
+    width: 29rem;
+    margin-left: 3rem;
+  }
+}
+
+@media (max-width: 766px) {
+  .submit-btn {
+    left: 60rem;
+  }
+
+  .bio {
+    font-size: 1.6rem;
+  }
+  .btn-flex {
+    margin-top: 21rem;
+}
+}
+
+@media (max-width: 729px) {
+  .submitBox {
+    left: -38rem;
+  }
+
+  img.manny-logo {
+    width: 29rem;
+    margin-left: -5rem;
+  }
+  div#projects {
+    margin-left: -1rem;
+  }  
+
+  .box2 {
+    margin-left: -5rem
+  }
+
+  .skill-list li {
+    font-size: 2rem;
+  }
+
+  .btn-flex {
+    margin-top: 12rem;
+  }
+
+  .date {
+    font-size: 1.4rem;
+  }
+
+  .cta-description {
+    margin-left: 1rem;
+  }
+
+}
+
+@media (min-width: 685px) {
+  .skill-list {
+    margin-left: -5rem;
+  }
+  .nav-responsive-menu {
+    left: 15rem;
+  }
+}
+
+@media (max-width: 661px) {
+  div#projects {
+    margin-left: -4rem;
+  }
+  .cta-headline {
+    margin-left: 4rem;
+  }
+  .submitBox {
+    left: -41rem;
+  }
+}
+
+@media (max-width: 630px) {
+  div#projects {
+    margin-left: -7rem;
+  }
+  .submitBox {
+    left: -42rem;
+  }
+}
+
+
+@media (max-width: 583px) {
+  img.manny-logo {
+    width: 29rem;
+    margin-left: -2em;
+  }
+
+  div#projects {
+    margin-left: -8rem;
+  }
+
+  .submitBox {
+    left: -44rem;
+  }
+
+  .btn-flex {
+    margin: 10rem 10rem;
+}
+}
+
+@media (max-width: 540px) {
+  .nav-responsive-menu {
+    left: 8rem;
+  }
+
+  .skill-list {
+    margin: 11rem 0 0 -4rem;
+    width: 60rem;
+  }
+
+  .skill-list li {
+    font-size: 1.4rem;
+  }
+
+  .box2 {
+    margin-left: 0rem;
+  }
+  .btn-flex {
+    margin: 10rem 0rem;
+  }
+  .submitBox {
+    left: -47rem;
+  }
+}
+
+
+@media (max-width: 486px) {
+  .submitBox {
+    left: -50rem;
+  }
+  
+  div#projects {
+    margin-left: -13rem;
+  } 
+}
+
+@media (max-width: 491px) {
+  .headline, .bio {
+    margin-left: 5rem;
+  }
+  .headline {
+    font-size: 5rem;
+  }
+  .bio {
+    width: 42rem;
+  }
+  .btn-flex {
+    margin: 14rem 6rem;
+  }
+  .skill-list {
+    margin-top: -6rem;
+  }
+  .skillList {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 2rem;
+  }
+  .cta {
+    margin-top: -1rem;
+  }
+  .cta-headline {
+    margin-left: 1rem;
+  } 
+  .switch {
+    right: -2rem;
+  } 
+  .menu-bars {
+    right: 1rem;
+  }
+  .project-description p {
+    font-size: 1.5rem;
+    margin-left: 4rem;
+  }
+  div#projects {
+    margin-left: -13rem;
+  } 
+  img.manny-logo {
+    width: 20rem;
+    margin-left: -1em;
+  }
+  .submitBox {
+    left: -49rem;
+  }
+
+}

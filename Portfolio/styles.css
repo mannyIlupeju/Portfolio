@@ -1,0 +1,681 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color:#fff;
+  font-size: 1.5ren
+}
+
+.checkedBackground {
+  background-color: black;
+}
+
+
+
+
+a {
+  text-decoration: none;
+}
+
+/* Navigation section */
+/* .bg-dark {
+  background-color: black !important;
+} */
+
+/* .nav {
+  padding: 1rem 9.125rem;
+} */
+
+.nav2 {
+  list-style: none;
+  display: flex;
+}
+
+.navigation-flex {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+  margin-top: 2rem;
+}
+
+.navbar {
+  position: relative;
+  right: 15rem;
+}
+
+.nav-link {
+  color: red;
+  font-size: 1.8rem;
+}
+
+.nav-link:hover{
+  color: grey;
+  transition: transform 0.3s ease-in
+}
+.nav-link:active{
+  color: green;
+}
+
+
+
+/* Toggle Switch */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  margin-top: 1.09rem;
+  right: 1rem;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #f01924;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #ffdb0f;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+
+/* menu bars */
+
+.nav-responsive-menu {
+  background-color: black;
+  padding: 1rem;
+  list-style: none;
+  position: relative;
+  top: 3rem;
+  left: 33rem;
+  width: 46rem;
+}
+
+/* @keyframes 
+ */
+
+.show {
+  display: none;
+}
+
+.nav3 {
+  display: flex;
+  list-style: none;
+
+}
+.menu-bars {
+  position: relative;
+  display: inline-block;
+  width: 3.75rem;
+  height: 2.13rem;
+  margin-top: 1.09rem;
+  right: 1rem;
+  display: none;
+}
+
+.times-bar {
+  position: relative;
+  display: inline-block;
+  width: 3.75rem;
+  height: 4.13rem;
+  right: -2rem;
+  top:1rem;
+  display: none;
+}
+
+
+
+/* manny logo */
+
+img.manny-logo {
+  margin-left: -3rem;
+}
+
+
+.about {
+  position: relative;
+  right: 1rem;
+  margin-top: 80px;
+  padding: 40px;
+}
+
+.about-flex {
+  display: flex;
+  gap: 15rem;
+}
+
+.about img {
+  width: 464px;
+  height: 511px;
+  clip-path: polygon(21% 0, 100% 0, 100% 100%, 0 100%);
+
+}
+
+
+.bio {
+  position: relative;
+  font-family: 'Josefin Sans', sans-serif;
+  width: 535px;
+  height: 217px;
+  margin-top: -23.57rem;
+  line-height: 1.5;
+  top: 0;
+  bottom: 60px;
+  color: black;
+  z-index: 1;
+  font-size: 2rem;
+  
+
+}
+
+/* .bio::before {
+  content: "";
+  position: absolute;
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  z-index: -1;
+  top: -7rem;
+  right: 0.0625rem;
+  left: -5.31rem;
+  bottom: 0.0625rem;
+} */
+
+.bio:hover::before {
+  background-color: yellow;
+  z-index: -1;
+}
+
+.text-wrapper {
+  display: block;
+  overflow-y: hidden;
+  height: 50rem;
+  
+}
+
+.headline {
+  position: relative;
+  font-family: 'Righteous', cursive;
+  color:black;
+  font-size: 8.5rem;
+  animation: slide-up 1.5s;
+  top: -2rem;
+}
+
+@keyframes slide-up {
+  0% {
+    transform: translateY(8rem);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.btn-flex {
+  display: flex;
+  gap: 2rem;
+  margin-top: 20rem;
+}
+
+.btn-con {
+  display: flex;
+  align-self: flex-start;
+  
+}
+
+.main-btn {
+  border-radius: 1.875rem;
+  font-weight: 600;
+  color: rgba(241, 14, 14, 0.849);
+  position: relative;
+  border: 1px solid rgba(241, 14, 14, 0.849);
+  display: flex;
+  align-self: flex-start;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.btn-text {
+  padding: 0 20px;
+  color: rgba(241, 14, 14, 0.849);
+  font-size: 1.2rem;
+}
+
+#btn-text1 {
+  padding: 0.8rem;
+}
+
+#btn-text1:hover {
+  color: white;
+    width: 100%;
+  height: 100%;
+  background-color: green;
+  transform: translateX(0%);
+}
+
+.btn-text:hover{
+  color: white;
+}
+
+
+
+
+.btn-icon {
+  background-color: green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  padding: 10px;
+  color: yellow;
+  border: 1px solid white
+}
+
+.btn-icon::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translateX(100%);
+  transition: all .4s ease-out;
+  z-index: -1;
+  
+
+}
+.main-btn:hover .btn-icon::before{
+  width: 100%;
+  height: 100%;
+  background-color: green;
+  transform: translateX(0%);
+  
+  
+}
+
+/* ////////////////////////////////////////////////////////////////// */
+
+/* Programs i use */
+
+.skill-list {
+  padding: 3rem;
+  margin-top: 15rem;
+  text-align: center;
+}
+
+.skillList {
+  display: flex;
+  list-style: none; 
+  padding: 0;
+  gap: 5rem;
+  justify-content: space-evenly;
+ 
+}
+
+.skillList > li {
+  font-size: 3.5rem;
+  margin-top: 2rem;
+  font-family: 'Righteous', sans-serif;
+  
+}
+
+
+
+/* ////////////////////////////////////////////////////////////////// */
+
+/* Projects */
+
+.project-section {
+margin: 15rem 0 4rem 23rem;
+}
+
+.row {
+  gap: 5rem;
+}
+
+
+.project-description {
+  margin-bottom: 8rem;
+  text-align: center;
+  margin-left: -25rem;
+}
+
+.project-description h3 {
+  font-size: 5rem;
+  
+}
+
+.project-description p {
+  font-size: 1.5rem;
+}
+
+.project-title {
+  font-weight: 600;
+  margin-left: -1rem;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards {
+  font-family: "Righteous, sans-serif";
+  width: 46rem;
+  height: 40rem;
+  font-size: 2rem;
+  padding: 2rem;
+  border: 2px solid black;
+  position: relative;
+  top:0;
+  transition: top ease 0.5s;
+
+  cursor: pointer;
+}
+
+.cards:hover {
+  position: relative;
+  top: -2rem;
+  width: 46rem;
+  height: 40rem;
+  background-color: rgba(248, 246, 246, 0.705)
+}
+
+.linkIcons {
+  display: flex;
+  gap: 1rem;
+}
+
+.ext-link, .ext-github {
+  color:grey;
+}
+
+
+
+.ext-link:hover {
+  color: green;
+}
+.ext-github:hover {
+  color:red ;
+}
+
+/* .project-cards {
+  display: grid;
+  grid-template-columns: 0.3fr 0.3fr 0.3fr;
+  row-gap: 10rem;
+  column-gap: 2rem;
+} */
+
+
+.project-desc {
+  font-size: 1.5rem;
+  margin-top: 2.4rem;
+  
+}
+
+.stack-list {
+list-style: none;
+display: flex;
+gap: 2rem;
+position: absolute;
+bottom: 1rem;
+left: 0.5rem;
+}
+
+.stack-list li {
+  font-size: 1.5rem;
+}
+
+
+/* ////////////////////////////////////////////////////////////////// */
+
+/* Call To Action */
+.cta {  
+  /* background-color: rgb(238, 237, 237); */
+  padding: 9rem;
+  margin-top: 10rem;
+  margin-left: -9rem;
+}
+
+
+
+
+.call-to-action {
+  text-align: left;
+  margin-top: 0rem;
+  padding: 2rem;
+  margin-left: 7rem; 
+
+}
+
+
+.cta-headline {
+  font-size: 5rem;
+  text-align: center;
+}
+
+.cta-description {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.cta-description-last {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.cta-form {
+ text-align: center;
+ font-size: 1.8rem;
+ margin-right: -10rem;
+ padding: 2rem;
+}
+
+label.lName, label.fName{
+  margin-left: -10rem;
+
+}
+
+label.email {
+  display: flex;
+  flex-direction: column;
+  margin-left: -7rem;
+}
+
+label.phone {
+  display: flex;
+  flex-direction: column;
+  margin-left: -32rem;
+}
+
+
+
+.f-name,.l-name {
+ display: flex;
+ flex-direction: column;
+
+}
+
+.namesBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 8rem;
+  margin-left: -1rem;
+}
+
+.emailBox{
+  position: relative;
+  left: -19rem;
+}
+
+/* .PhoneBox {
+  position: relative;
+  left: -3rem;
+} */
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  gap: 11rem;
+  margin-top: 2rem;
+  margin-left: 80rem;
+}
+
+.messageBox {
+  position: relative;
+  left: -15rem;
+  margin-top: 4rem;
+}
+
+.messageLabel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: -6.5rem;
+
+}
+
+.submitBox {
+  margin-top: 2rem;
+  position: relative;
+  left: -13.8rem;
+}
+
+input:focus, textarea:focus, select:focus{
+   outline: green;    
+}
+
+input[type = text]{
+  border-radius: 4px;
+  width: 20rem;
+  padding: 0.5rem;
+}
+
+input[type=email] {
+  border-radius: 4px;
+  width: 20rem;
+  padding: 0.5rem;
+  margin-left: 8.5rem;
+  
+}
+
+input[type=phone] {
+  border-radius: 4px;
+  width: 20rem;
+  padding: 0.5rem;
+  margin-left: -24rem;
+}
+
+textarea {
+  width: 50rem;
+  height: 40rem;
+  height: 150px;
+  padding: 12px 20px;
+  margin-left: 30rem;
+  
+}
+
+
+
+.submit-btn {
+  padding: 0.8rem;
+  font-size: 1.4rem;
+  height: 7rem;
+  width: 25rem;
+  max-width: 100%;
+  position: relative;
+  left: 94rem;
+  box-sizing: border-box;
+  cursor: pointer;
+  border-radius: 1.5rem;
+  background-color: rgb(235, 235, 235);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.submit-btn:hover {
+  box-shadow:10px 10px 5px -13px rgba(0,0,0,0.75);
+  transition: ease 0.3s
+}
+
+.submit-text, .submit-text:link {
+  color: black;
+  font-size: 2.5rem;
+}
+
+.submit-text:hover {
+  color: grey;
+}
+/* .submit-btn::after {
+  content: " ";
+  background-color: #111;
+  border-radius: 1.5rem;
+  height: 4rem;
+  width: 8rem;
+  display: block;
+  position: absolute;
+  left: 0.2rem;
+  bottom: -0.5rem;
+  z-index:-1;
+  transform: translate(4px, 4px);
+  transition: transform .2s ease-out;
+} */
+
+
+.date{
+  text-align: center;
+  font-size: 2rem;
+  color: black;
+}
+

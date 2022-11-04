@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet"> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"> 
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- JS bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.6.1.js"
+  integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+  crossorigin="anonymous"></script>
+  <link rel = "stylesheet" href = "styles.css">
+  <link rel = "stylesheet" href = "media.css">
+  
+  <title>Portfolio</title>
+  
+</head>
+<body>
+  <section class = "header-section">
+    <div class = "container">
+      <div class = "navigation-flex">
+       <div class = "col">
+         <img src = "mannylogo/3dmannylogo.gif" alt="Manny logo" class="manny-logo">
+       </div>
+       
+       <div class = "navi">
+         <nav class = "navbar navbar-light bg-transparent">
+           <ul class = "nav2">
+             <li class="nav-item">
+               <a class="nav-link active" href="#">Bio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#skillList">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projectSection" aria-expanded="false">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="https://www.linkedin.com/in/pelumi-ilupeju/" target="_blank">Work Experience</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#cta">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class = "switchEl">
+          <label class = "switch">
+            <input type = "checkbox" id= "checkbox">
+            <span class = "slider round"></span>
+          </label>
+        </div>
+
+        <div class = "menuBars">
+          <i id = menu-bars class="fas fa-bars menu-bars fa-3x"></i>
+          <i id = times-bar class="fas fa-times fa-3x times-bar"></i>
+        </div>
+
+        
+      </div>
+      <div class= "nav-responsive-menu show">
+        <div class = "nav-container">
+          <ul class = "nav3">
+           <li class="nav-item">
+             <a class="nav-link active" href="#">Bio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#skillList">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projectSection" aria-expanded="false">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="https://www.linkedin.com/in/pelumi-ilupeju/" target="_blank">Work Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#cta">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class = "about">
+        <div class = "about-flex">
+          <div class = "box1">
+            <img src = "images/mannyimage.png" alt = "manny-professional"/>
+          </div>
+          <div class = "box2">
+            <div class = "text-wrapper">
+              <h1 class = "headline">Front-End Web Developer</h1>
+            </div>
+              <p class = "bio">
+                A self-starter enthused about Design and Functionality. 
+                <br>I began my journey as a graphic designer with friends and once I came across web design the possibilities expanded.<br> 
+                <br>I’m a quick learner proficient in HTML, CSS, Javascript as well as no-coding tools like Woocommerce and shopify.<br>
+                <br>I love to create Beautiful and Functional websites that support business needs and are appreciated by users.<br><br> Learning is a lifelong experience and I’m excited about the journey ahead. 
+              </p>
+
+            <div class = "btn-flex">
+               <div class = "btn-con">
+                <a href="#cta" class="main-btn">
+                  <span class ="btn-text" id ="btn-text1">Get in Touch</span>
+                  <!-- <span class ="btn-icon"><i class="fas fa-arrow-from-bottom"></i></i></span> -->
+                </a>
+              </div>
+           
+              <div class = "btn-con">
+                <a href="pages/manny-dev-resume.pdf" target="_blank" class="main-btn">
+                <span class ="btn-text">
+                    Download Resume
+                  </span>
+                  <span class ="btn-icon"><i class = "fa fa-download"></i></span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+          <div class = "skill-list" id="skillList">
+              <h2>Here are a few technologies I've been working with recently</h2>
+              <ul class = "skillList">
+                <li>HTML</li>
+                <li>CSS & SASS</li>
+                <li>Javascript</li>
+                <li>React</li>
+                <li>Adobe Creative cloud</li>
+              </ul>
+          </div>
+
+          
+
+        </div>
+   </div>
+ </section>
+
+
+<!-- Project section -->
+
+ <section id = "projectSection" class = "project-section">
+    <div class = "container-fluid">
+      <div class = "project-description" id = "project-description">  
+        <h3>Projects</h3>
+        <p>Some Amazing Projects. Check my Github Repositories for more.</p>
+      </div>
+
+      <div class = "projects" id = "projects">
+        <div class = "project-cards row">
+
+          <div class = "cards col-lg-6" id = "card1">
+            <div class = "card-header">
+              <span class = "project-title">Ecommerce website UI</span>
+              <div class = "linkIcons">
+                <span>
+                  <a href="https://retrogoldv1.netlify.app/" target="_blank">
+                    <i class="fas fa-external-link-alt fa-s ext-link"></i>
+                  </a>
+                </span>
+                <span class = "fasicons">
+                  <a href="https://github.com/mannyIlupeju/Retrogold" target="_blank">
+                    <i class="fab fa-github fa-s ext-github" ></i>
+                  </a>
+                </span>
+              </div>
+             
+            </div>
+            <p class = "project-desc">Built an Ecommerce website that allows users to view products, product information and add items to cart. <br><br>
+              The website also features a Blog that is dynamically updated using object oriented programming.<br> I learned a lot in this project, utilizing the power of higher order functions
+              to create a dynamic ecommerce site. 
+            </p>
+            <ul class = "stack-list">
+              <li>Javascript</li>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+          </div>
+
+          <div class = "cards col-lg-6" id = "card3">
+             <div class = "card-header">
+               <span class = "project-title">Omnifood Delivery App</span>
+              <div class = "linkIcons">
+                <span class="fasicons">
+                  <a href = "https://omnifooddeli.netlify.app/" target="_blank">
+                    <i class="fas fa-external-link-alt fa-s ext-link"></i>
+                  </a>
+                </span>
+                <span class = "fasicons">
+                  <a href="https://github.com/mannyIlupeju/Omnifooddeli.git" targt="_blank">
+                    <i class="fab fa-github fa-s ext-github" ></i>
+                  </a>
+                  </span>
+              </div>
+
+             </div>
+            <p class = "project-desc">
+              Built the front end of a food delivery app with HTML and CSS <br>
+              Front End design project for a fictional food delivery company. 
+            </p>
+            <ul class = "stack-list">
+              <li>Javascript</li>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+          </div>
+
+
+           <div class = "cards col-lg-6" id = "card3">
+             <div class = "card-header">
+               <span class = "project-title">Weather App</span>
+              <div class = "linkIcons">
+                <span>
+                  <a href = "https://mannyweatherapp.netlify.app/" target="_blank">
+                    <i class="fas fa-external-link-alt fa-s ext-link"></i>
+                  </a>
+                </span>
+                <span class = "fasicons">
+                  <a href="https://github.com/mannyIlupeju/WeatherApp/" targt="_blank">
+                    <i class="fab fa-github fa-s ext-github" ></i>
+                  </a>
+                  </span>
+              </div>
+
+             </div>
+            <p class = "project-desc">
+              Enter any location in the world and receive real time weather information. <br><br>
+
+              This was a useful application to work on as i wanted to create a functional search bar that utilized the power of 
+              OpenWeather API. Using the power of async await functionality and Object Oriented programming i was able to build a functional app that 
+              retrieved JSON from the API to modify html content. 
+            </p>
+            <ul class = "stack-list">
+              <li>Javascript</li>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+          </div>
+
+           <div class = "cards col-lg-6" id = "card4">
+             <div class = "card-header">
+               <span class = "project-title">Todo List App</span>
+                <div class = "linkIcons">
+                  <span>
+                    <a href="https://zippy-moxie-ddc997.netlify.app/" target="_blank">
+                      <i class="fas fa-external-link-alt fa-s ext-link"></i>
+                    </a>
+                  </span>
+                  <span class = "fasicons">
+                    <a href = "https://github.com/mannyIlupeju/To-do-List-App.git" target="_blank">
+                      <i class="fab fa-github fa-s ext-github" ></i>
+                    </a>
+                  </span>
+                </div>
+              </div>
+            <p class = "project-desc">Learned how to create CRUD application that allow users to enter items into a list, update the list and delete items as they go</p>
+            <ul class = "stack-list">
+              <li>Javascript</li>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+          </div>
+
+        
+
+        </div>
+      </div>
+
+    </div>
+ </section>
+
+<!-- Contact form -->
+
+ <section class = "cta" id = "cta">
+     <div class = "call-to-action">
+       <h2 class = "cta-headline">Get in Touch</h2>
+       <p class = "cta-description">I am currently looking for work and open to freelance or employment opportunities </p>
+       <p class= "cta-description-last">Please contact me, my inbox is always open!</p>
+      </div>
+
+        <div class = submitBox>
+          <button class = "submit-btn" id = "submit-btn" role = "button">
+            <a class= "submit-text" href="mailto:mannybiz@outlook.com" target="_blank">
+              Contact Me!
+            </a>
+          </button>
+        </div>
+      
+      
+      <!-- <form action="https://formsubmit.co/mannybiz@outlook.com" method = "POST" class = "cta-form">
+        <input type = "hidden" name = "_subject" value = "New email received!">
+        <div class = "namesBox">
+          <div class = "f-name">
+            <Label for ="fname" name = "FirstName" class = "fName">First Name:</Label>
+            <input type ="text" name = "FirstName"  id = "fname" class = "f-name" required />
+          </div>
+          <div class = "l-name">
+            <Label for ="lname" name="LastName"class = "lName">Last Name:</Label>
+            <input type ="text" name="LastName" id = "lname" class = "l-name" required />
+          </div>
+        </div>
+        
+        <div class = "contact">
+          <div class = "emailBox">
+            <Label for = "email" name = "email" class = "email">Email:</Label>
+            <input type = "email"  name = "email" id = "e-mail" class = "e-mail" required />
+          </div>
+          <input type = "hidden" name = "_next" value = "https://manny-ilupeju.com/pages/thankyou.html">
+          <div class = "PhoneBox">
+            <Label class = "phone" for = "phone">Phone Number:</Label>
+            <input type = "phone" name = "Phone" id = "tel" class = "tel" required />
+          </div>
+        </div> 
+        
+        <div class = "messageBox">
+          <Label class = "messageLabel" for = "message">Message</Label>
+          <textarea class = "messageArea" id = "messageArea" placeholder = "Write your message here"></textarea>
+        </div>
+
+        <div class = submitBox>
+          <button class = "submit-btn" id = "submit-btn" role = "button">Submit</button>
+        </div>
+        
+      </form> -->
+  </section>
+
+    <div class="date">
+      <!-- <p class = "dates"></p> -->
+    </div>
+ <!-- jquery -->
+ <script src = "portfolio.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ <script>
+  AOS.init();
+</script>
+</body>
+</html>
